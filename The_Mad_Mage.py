@@ -34,9 +34,9 @@ def choose_character():
     choose_label.pack(pady=10)
 
     characters = {
-        "Warrior": r"https://github.com/Babylon6/The_Mad_Mage/blob/main/Warrior.jpg",
-        "Mage": r"https://github.com/Babylon6/The_Mad_Mage/blob/main/Mage.jpg",
-        "Ranger": r"https://github.com/Babylon6/The_Mad_Mage/blob/main/Ranger.jpg"
+        "Warrior": "images/Warrior.jpg",
+        "Mage": "images/Mage.jpg",
+        "Ranger": "images/Ranger.jpg"
     }
 
     character_frame = tk.Frame(root)
@@ -75,7 +75,7 @@ def display_intro():
     label.pack(pady=10)
 
     # Add image beneath the intro text
-    image_path = r"https://github.com/Babylon6/The_Mad_Mage/blob/main/fortress.jpg"  # Replace with the actual path to your image
+    image_path = "images/fortress.jpg"  # Replace with the actual path to your image
     image = Image.open(image_path)
     image = image.resize((400, 200), Image.Resampling.LANCZOS)  # Adjust the size as needed
     photo = ImageTk.PhotoImage(image)
@@ -118,7 +118,7 @@ def adventure_begins():
     label.pack(pady=10)
 
     # Add image beneath the adventure text
-    image_path = r"https://github.com/Babylon6/The_Mad_Mage/blob/main/dungeon_image.jpg"  # Replace with the actual path to your image
+    image_path = "images/dungeon_image.jpg"  # Replace with the actual path to your image
     image = Image.open(image_path)
     image = image.resize((400, 200), Image.Resampling.LANCZOS)  # Adjust the size as needed
     photo = ImageTk.PhotoImage(image)
@@ -163,7 +163,7 @@ def display_first_puzzle_scene():
     label.pack(pady=10)
 
     # Image for the puzzle scene
-    image_path = r"https://github.com/Babylon6/The_Mad_Mage/blob/main/torch.jpg"  # Replace with actual path to your image
+    image_path = "images/torch.jpg"  # Replace with actual path to your image
     image = Image.open(image_path)
     image = image.resize((400, 400), Image.Resampling.LANCZOS)  # Adjust the size as needed
     photo = ImageTk.PhotoImage(image)
@@ -226,7 +226,7 @@ def display_fight_scene():
     label.pack(pady=10)
 
     # Add image of the Stone Guardian
-    image_path = r"https://github.com/Babylon6/The_Mad_Mage/blob/main/stone_guardian.jpg"  # Replace with the actual path to your image
+    image_path = "images/stone_guardian.jpg"  # Replace with the actual path to your image
     image = Image.open(image_path)
     image = image.resize((400, 400), Image.Resampling.LANCZOS)  # Adjust the size as needed
     photo = ImageTk.PhotoImage(image)
@@ -352,7 +352,7 @@ def display_library_scene():
     label.pack(pady=10)
 
     # Image for the library puzzle scene
-    image_path = r"https://github.com/Babylon6/The_Mad_Mage/blob/main/library.jpg"  # Replace with actual path to your image
+    image_path = "images/library.jpg"  # Replace with actual path to your image
     image = Image.open(image_path)
     image = image.resize((400, 400), Image.Resampling.LANCZOS)  # Adjust the size as needed
     photo = ImageTk.PhotoImage(image)
@@ -415,7 +415,7 @@ def display_horned_fight_scene():
     label.pack(pady=10)
 
     # Add image of the Horned Enemy
-    image_path = r"https://github.com/Babylon6/The_Mad_Mage/blob/main/enemy.jpg"  # Replace with the actual path to your image
+    image_path = "images/enemy.jpg"  # Replace with the actual path to your image
     image = Image.open(image_path)
     image = image.resize((300, 400), Image.Resampling.LANCZOS)  # Adjust the size as needed
     photo = ImageTk.PhotoImage(image)
@@ -543,7 +543,7 @@ def display_new_puzzle_scene():
     label.pack(pady=10)
 
     # Image for the puzzle scene
-    image_path = r"https://github.com/Babylon6/The_Mad_Mage/blob/main/tomb.jpg"  # Replace with actual path to your image
+    image_path = "images/tomb.jpg"  # Replace with actual path to your image
     image = Image.open(image_path)
     image = image.resize((400, 200), Image.Resampling.LANCZOS)  # Adjust the size as needed
     photo = ImageTk.PhotoImage(image)
@@ -613,7 +613,7 @@ def display_mad_mage_battle_scene():
     label.pack(pady=10)
 
     # Add image of the Mad Mage
-    image_path = r"https://github.com/Babylon6/The_Mad_Mage/blob/main/mad_mage.jpg"  # Replace with the actual path to your image
+    image_path = "images/mad_mage.jpg"  # Replace with the actual path to your image
     image = Image.open(image_path)
     image = image.resize((400, 400), Image.Resampling.LANCZOS)  # Adjust the size as needed
     photo = ImageTk.PhotoImage(image)
@@ -738,7 +738,7 @@ def display_final_choice():
     label.pack(pady=10)
 
     # Add image of the glowing sphere
-    image_path = r"https://github.com/Babylon6/The_Mad_Mage/blob/main/artifact.jpg"  # Replace with the actual path to your image
+    image_path = "images/artifact.jpg"  # Replace with the actual path to your image
     image = Image.open(image_path)
     image = image.resize((200, 400), Image.Resampling.LANCZOS)  # Adjust the size as needed
     photo = ImageTk.PhotoImage(image)
@@ -814,7 +814,7 @@ def display_congratulations_scene():
     label.pack(pady=10)
 
     # Add image for the congratulations scene
-    image_path = r"https://github.com/Babylon6/The_Mad_Mage/blob/main/victory.jpg"  # Replace with the actual path to your image
+    image_path = r"D:\Code Course\Week 2\Day 5\RPG Game\victory.jpg"  # Replace with the actual path to your image
     image = Image.open(image_path)
     image = image.resize((400, 400), Image.Resampling.LANCZOS)  # Adjust the size as needed
     photo = ImageTk.PhotoImage(image)
